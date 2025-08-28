@@ -17,7 +17,7 @@ const nextConfig = {
         headers: [
           {
             key: "Access-Control-Allow-Origin",
-            value: "http://localhost:3000, https://yourdomain.com", 
+            value: "*", 
             // 🚨 only ONE origin allowed here, use "*" for all OR set dynamically
           },
           {
